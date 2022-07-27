@@ -9862,7 +9862,7 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.1.1.tgz#1f19c4d3f6278c52efd08a94574a2a8d32b7d092"
   integrity sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw==
 
-strapi-plugin-comments@^2.0.10:
+strapi-plugin-comments@2.0.10:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/strapi-plugin-comments/-/strapi-plugin-comments-2.0.10.tgz#5d0b08a3caca0a364d1a508dd793405687b9c32b"
   integrity sha512-MLowWeYGWBRRrCsGGk2OLFA4UdfF2PpNAJLAbBImX2yv8TYIT/Sj+8zWJkmHrJ/2mePKy2WPVzJgyqnpNjoHGw==
