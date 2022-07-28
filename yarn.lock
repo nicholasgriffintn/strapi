@@ -1855,7 +1855,7 @@
     "@strapi/utils" "4.3.0"
     lodash "4.17.21"
 
-"@strapi/plugin-graphql@4.3.0":
+"@strapi/plugin-graphql@4.3.0", "@strapi/plugin-graphql@^4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.3.0.tgz#08f9af907806671d73798993db6886cfb5f7ff9e"
   integrity sha512-h/Iet6bTlQCduVnIJOnRAtlbcK/cDFkl2rFw2JwnuScTRxSgREzdqSCqIao34m8FN/avUEFK3EZY+HuIMuW4NA==
@@ -1864,31 +1864,6 @@
     "@graphql-tools/schema" "8.1.2"
     "@graphql-tools/utils" "^8.0.2"
     "@strapi/utils" "4.3.0"
-    apollo-server-core "3.1.2"
-    apollo-server-koa "3.1.2"
-    glob "^7.1.7"
-    graphql "^15.5.1"
-    graphql-depth-limit "^1.1.0"
-    graphql-iso-date "^3.6.1"
-    graphql-playground-middleware-koa "^1.6.21"
-    graphql-type-json "^0.3.2"
-    graphql-type-long "^0.1.1"
-    graphql-upload "^13.0.0"
-    koa-compose "^4.1.0"
-    lodash "4.17.21"
-    nexus "1.2.0"
-    pluralize "^8.0.0"
-    subscriptions-transport-ws "0.9.19"
-
-"@strapi/plugin-graphql@^4.1.2":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-graphql/-/plugin-graphql-4.1.3.tgz#1ef02118a897096cff5957d046f6df109f98ec17"
-  integrity sha512-ADqbRk3vXEY5KZg+NsECLN7TYo6FFRd1iZxH8uet33K2AivXNhg+J3MhMGJfHFNrMve1HyNyUuMjPYjeP2gJLg==
-  dependencies:
-    "@apollo/federation" "^0.28.0"
-    "@graphql-tools/schema" "8.1.2"
-    "@graphql-tools/utils" "^8.0.2"
-    "@strapi/utils" "4.1.3"
     apollo-server-core "3.1.2"
     apollo-server-koa "3.1.2"
     glob "^7.1.7"
@@ -2057,18 +2032,7 @@
     prettier "2.7.1"
     typescript "4.6.2"
 
-"@strapi/utils@4.1.3", "@strapi/utils@^4.1.2":
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.3.tgz#87c789568543cd5c257442a0115998f5a6c8c2f1"
-  integrity sha512-AAGLx7nO2vFxWj1ibwPDFNVwH2R9aXg6SbtrRLYaohZYOC1ldmn1htbwJiFG29GLlo9lvI4mmBeElzhZUb4Qsw==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "2.24.0"
-    http-errors "1.8.0"
-    lodash "4.17.21"
-    yup "0.32.9"
-
-"@strapi/utils@4.3.0":
+"@strapi/utils@4.3.0", "@strapi/utils@^4.3.0":
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.3.0.tgz#335bbec19c5c82a14542502e4ea275af39b86c1c"
   integrity sha512-wizuvJX8yGB3T+VU83ZJ0hiWS+rBsLFLMzbSR54b858HSyjWHQWotcxMboxRKu1MZsmX3uXzY1RK8pF22bLTng==
@@ -4266,11 +4230,6 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-date-fns@2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.24.0.tgz#7d86dc0d93c87b76b63d213b4413337cfd1c105d"
-  integrity sha512-6ujwvwgPID6zbI0o7UbURi2vlLDR9uP26+tW6Lg+Ji3w7dd0i3DOcjcClLjLPranT60SSEFBwdSyYwn/ZkPIuw==
-
 date-fns@2.28.0:
   version "2.28.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
@@ -5964,17 +5923,6 @@ http-deceiver@^1.2.7:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/http-deceiver/-/http-deceiver-1.2.7.tgz#fa7168944ab9a519d337cb0bec7284dc3e723d87"
   integrity sha1-+nFolEq5pRnTN8sL7HKE3D5yPYc=
-
-http-errors@1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/http-errors/-/http-errors-1.8.0.tgz#75d1bbe497e1044f51e4ee9e704a62f28d336507"
-  integrity sha512-4I8r0C5JDhT5VkvI47QktDW75rNlGVsUf/8hzjCC/wkWI/jdTRmBb9aI7erSG82r1bjKY3F6k28WnsVxB1C73A==
-  dependencies:
-    depd "~1.1.2"
-    inherits "2.0.4"
-    setprototypeof "1.2.0"
-    statuses ">= 1.5.0 < 2"
-    toidentifier "1.0.0"
 
 http-errors@1.8.1, http-errors@^1.6.3, http-errors@^1.7.3, http-errors@^1.8.0, http-errors@^1.8.1, http-errors@~1.8.0:
   version "1.8.1"
@@ -9862,13 +9810,13 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.1.1.tgz#1f19c4d3f6278c52efd08a94574a2a8d32b7d092"
   integrity sha512-/c645XdExBypL01TpFKiG/3RAa/Qmu+zRi0MwAmrdEkwHNuN0ebo8ccAXBBDa5Z0QOJgBskUIbuCK91x0sCVEw==
 
-strapi-plugin-comments@^2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-comments/-/strapi-plugin-comments-2.0.10.tgz#5d0b08a3caca0a364d1a508dd793405687b9c32b"
-  integrity sha512-MLowWeYGWBRRrCsGGk2OLFA4UdfF2PpNAJLAbBImX2yv8TYIT/Sj+8zWJkmHrJ/2mePKy2WPVzJgyqnpNjoHGw==
+strapi-plugin-comments@2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-comments/-/strapi-plugin-comments-2.1.8.tgz#bbe329ff7f79cae4f2cd5ee3e0f67aaeeecd124f"
+  integrity sha512-aE2jTNLTenAeAKSsBXRJ07cBzMfJTaI+KMaV9f9kbwge3GPW6KRIn133NyU9l4wpjl+gOKz/3acfKUz3gP+weQ==
   dependencies:
-    "@strapi/plugin-graphql" "^4.1.2"
-    "@strapi/utils" "^4.1.2"
+    "@strapi/plugin-graphql" "^4.3.0"
+    "@strapi/utils" "^4.3.0"
     bad-words "^3.0.4"
 
 stream-browserify@^3.0.0:
@@ -10240,11 +10188,6 @@ toggle-selection@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
   integrity sha1-bkWxJj8gF/oKzH2J14sVuL932jI=
-
-toidentifier@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
-  integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
 toidentifier@1.0.1:
   version "1.0.1"
